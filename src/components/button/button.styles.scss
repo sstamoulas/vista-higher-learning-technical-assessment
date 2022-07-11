@@ -1,0 +1,12 @@
+.button {
+  height: 35px;
+}
+
+.button-container {
+  border: .75em solid transparent;
+
+  &:hover, &.focus {
+    border: .75em solid black;
+    border-radius: 5px;
+  }
+}
